@@ -20,19 +20,19 @@ from tobrot.get_cfg import get_config
 class Commandi:
     LEECH = get_config(
         "COMMANDI_LEECH",
-        "leech"
+        "leech@VC_torrentbot"
     )
     PURGE = get_config(
         "COMMANDI_PURGE",
-        "purge"
+        "purge@VC_torrentbot"
     )
     YTDL = get_config(
         "COMMANDI_YTDL",
-        "ytdl"
+        "ytdl@VC_torrentbot"
     )
     STATUS = get_config(
         "COMMANDI_STATUS",
-        "status"
+        "status@VC_torrentbot"
     )
     CANCEL = get_config(
         "COMMANDI_CANCEL",
@@ -40,37 +40,37 @@ class Commandi:
     )
     EXEC = get_config(
         "COMMANDI_EXEC",
-        "exec"
+        "exec@VC_torrentbot"
     )
     EVAL = get_config(
         "COMMANDI_EVAL",
-        "eval"
+        "eval@VC_torrentbot"
     )
     RENAME = get_config(
         "COMMANDI_RENAME",
-        "rename"
+        "rename@VC_torrentbot"
     )
     UPLOAD = get_config(
         "COMMANDI_UPLOAD",
-        "upload"
+        "upload@VC_torrentbot"
     )
     HELP = get_config(
         "COMMANDI_HELP",
-        "help"
+        "help@VC_torrentbot"
     )
     SAVETHUMBNAIL = get_config(
         "COMMANDI_SAVETHUMBNAIL",
-        "savethumbnail"
+        "savethumbnail@VC_torrentbot"
     )
     CLEARTHUMBNAIL = get_config(
         "COMMANDI_CLEARTHUMBNAIL",
-        "clearthumbnail"
+        "clearthumbnail@VC_torrentbot"
     )
     GET_RCLONE_CONF_URI = get_config(
         "COMMANDI_GET_RCLONE_CONF_URI",
-        "getrcloneconfuri"
+        "getrcloneconfuri@VC_torrentbot"
     )
     UPLOAD_LOG_FILE = get_config(
         "COMMANDI_UPLOAD_LOG_FILE",
-        "log"
+        "log@VC_torrentbot"
     )
