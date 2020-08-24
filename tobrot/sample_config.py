@@ -58,8 +58,8 @@ class Config(object):
         1900000000
     ))
     # add config vars for the display progress
-    FINISHED_PROGRESS_STR = get_config("FINISHED_PROGRESS_STR", "█")
-    UN_FINISHED_PROGRESS_STR = get_config("UN_FINISHED_PROGRESS_STR", "░")
+    FINISHED_PROGRESS_STR = get_config("FINISHED_PROGRESS_STR", "●")
+    UN_FINISHED_PROGRESS_STR = get_config("UN_FINISHED_PROGRESS_STR", "○")
     # add offensive API
     TG_OFFENSIVE_API = get_config("TG_OFFENSIVE_API", None)
     # URL for the rclone configuration
